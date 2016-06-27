@@ -1,0 +1,88 @@
+/* ampliamos el ancho del header al 100% de la pantalla */
+header{
+	width: 100%;
+}
+
+/* Definimos el area del menu en la etiqueta nav */
+nav{
+	margin: 0px auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+/* Quitamos el decorado de las etiquetas del menú */
+nav ul{
+	list-style: none;
+}
+
+/* Redimencionamos el orden de despliegue de los datos del menú */
+nav > ul{
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+
+/* Colocamos cada elemento del menú en celdas horizontales */
+nav > ul li{
+	display: table-cell;
+}
+
+/* modificamos caracteristicas de las opciones del menú */
+nav > ul li a{
+	color: #fff;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+/* colocacion en la parte superior los paneles que
+	se crearon a partir de la etiqueta span */
+nav > ul > li > a span{
+	background: #174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	top: -55px;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+/* centran los iconos en el área de los paneles */
+nav > ul > li > a span .icon{
+	display: block;
+	line-height: 60px;
+}
+
+/* Despliega los paneles que estan arriba de las opciones del menú */
+nav > ul > li > a:hover > span{
+	top: 0;
+}
+
+/*colores de los paneles que estan sobre el menú*/
+nav ul li a .primero{
+	background: #0e5061;
+}
+nav ul li a .segundo{
+	background: #5da5a2;
+}
+nav ul li a .tercero{
+	background: #f25724;
+}
+nav ul li a .cuarto{
+	background: #174459;
+}

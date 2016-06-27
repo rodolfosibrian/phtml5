@@ -1,0 +1,25 @@
+/* Reseteando margenes en todos los elementos html*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Establecer imagen de fondo */
+body {	
+	background-image: url('../ima/fondo.jpg');
+}
+
+.m{
+	display: block;
+	top: -50px;
+}
+
+/* Redimencionando las imagenes que estan arriba y abajo del menú */
+.b1{
+	width: 100px;
+	height: 100px;
+}
+.b2{
+	width: 100px;
+	height: 100px;
+}

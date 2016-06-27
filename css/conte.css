@@ -1,0 +1,20 @@
+.conte{
+	margin-left: 150px;
+}
+
+h1{
+	font: normal 2.4em Verdara, Geneva, sans-serif;
+	background:-webkit-linear-gradient(top,#00f,#0cf);
+	width: 40%;
+	border-radius: 10px;
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	box-shadow: #00f 5px 5px 10px;
+	text-shadow: #fff 2px 2px 3px;
+}
+
+body{
+	color: #fff;
+}
